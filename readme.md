@@ -1,3 +1,5 @@
-Project from The Odin Project course. 
+# The Odin Project Web Development
 
-Use browser developer tools to assist in the recreation of the Google.ca homepage using HTML and CSS.
+# Project: The Front End
+
+Recreate the Google.ca homepage using HTML and CSS.
