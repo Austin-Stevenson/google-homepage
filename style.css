@@ -1,3 +1,7 @@
+/*****************
+ *Generic styles *
+ *****************/
+
 * {
     font-family: Arial, sans-serif;
 }
@@ -9,6 +13,21 @@
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #3c4043;
+}
+
+/*******************
+ * Navigation menu *
+ *******************/
 .nav-menu {
     display: flex;
     padding-inline-start: 0;
@@ -35,18 +54,6 @@
     font-size: 14px;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #3c4043;
-}
-
 #menu-icon {
     padding: 2px;
     color:  #72767a;
@@ -71,6 +78,11 @@ a:visited {
     cursor: pointer;
 }
 
+/*************
+ * Main body *
+ *************/
+
+/* Ensures page stretches to bottom of screen */
 .content {
     flex-grow: 1;
 }
@@ -157,6 +169,10 @@ a:visited {
 #french {
     color: #0645AD;
 }
+
+/**********
+ * Footer *
+ **********/
 
 #footer-nav {
     padding: 15px;
